@@ -1,0 +1,32 @@
+group = "com.n33.guavalearn"
+version = "1.0.0"
+
+apply plugin: 'java'
+
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            "com.google.guava:guava:28.0-jre",
+            "junit:junit:4.12"
+    )
+}
+
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+    }
+}
