@@ -1,4 +1,4 @@
-rootProject.name = 'grava_learn'
+rootProject.name = 'guava_learn'
 include 'my_servant'
 include 'my_service'
 
